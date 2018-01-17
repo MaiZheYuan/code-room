@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="demo"
+    errors="1" failures="0" hostname="" id="" package="demo" skipped="0"
+    tests="1" time="0.006000" timestamp="Wed, 17 Jan 2018 07:54:43 GMT">
+  
+    <testcase name="search" classname="demo" time="0.006000" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Demo / search]:
+
+  TypeError: client.url(...).expect.element(...).to.be.present.pause is not a function
+    at Object.search (E:/yyj/code-room/test/e2e/specs/demo.js:45:5)
+    at Module.call (E:\yyj\code-room\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at E:\yyj\code-room\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (E:\yyj\code-room\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (E:\yyj\code-room\node_modules\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (E:\yyj\code-room\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at E:\yyj\code-room\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (E:\yyj\code-room\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    at flush (E:\yyj\code-room\node_modules\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

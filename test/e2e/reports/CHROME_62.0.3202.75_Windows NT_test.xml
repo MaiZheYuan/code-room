@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="0">
+
+  <testsuite name="test"
+    errors="0" failures="0" hostname="" id="" package="test" skipped="0"
+    tests="0" time="0.000" timestamp="Wed, 17 Jan 2018 10:01:45 GMT">
+  
+
+  
+    <system-err>
+      ERROR: Unable to locate element: &#34;#comment-box&#34; using: css selector
+    at Object.&lt;anonymous&gt; (E:/yyj/code-room/test/e2e/specs/demo.js:45:7)
+    at Object.&lt;anonymous&gt; (E:\yyj\code-room\node_modules\nightwatch\lib\api\element-commands.js:361:20)
+    at HttpRequest.&lt;anonymous&gt; (E:\yyj\code-room\node_modules\nightwatch\lib\index.js:366:18)
+    at emitTwo (events.js:126:13)
+    at HttpRequest.emit (events.js:214:7)
+    at HttpRequest.&lt;anonymous&gt; (E:\yyj\code-room\node_modules\nightwatch\lib\index.js:382:15)
+    at emitThree (events.js:136:13)
+    at HttpRequest.emit (events.js:217:7)
+    at IncomingMessage.&lt;anonymous&gt; (E:\yyj\code-room\node_modules\nightwatch\lib\http\request.js:170:16)
+    at emitNone (events.js:111:20)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>
